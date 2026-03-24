@@ -49,7 +49,9 @@ ver base de datos
 
 #### Relaciones entre tablas
 1. Cliente y venta
-- Tabla principaal de clientes: res_partner
+- Tabla principal de clientes: res_partner
 - Tabla de ventas: sale_order
 - Relacion: sale_order.partner_id -> sale_order.id
+```
+- un cliente puede tener varias ventas. Una venta puede tener varias lineas. Cada linea de venta apunta a un producto.
 
