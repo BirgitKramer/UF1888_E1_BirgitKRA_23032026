@@ -1,6 +1,6 @@
 from odoo import models, fields
 
-class ResPartner(models.models)
+class ResPartner(models.Models):
     _inherit = 'res.partner'
 
     nivel_cliente = fileds.Selection(
