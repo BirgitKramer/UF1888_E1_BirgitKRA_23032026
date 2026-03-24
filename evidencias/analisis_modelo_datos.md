@@ -37,10 +37,19 @@ ver base de datos
 
 #### analizar estructura de tablas
 - Toca ver que campos tiene cada tabla y localizador las claves.
+
 ```
-\d res-partner
-\d sale-ordner
+\d res_partner
+\d sale_order
 \d product_template
 ```
+![alt text](imagen06.png)
+![alt text](imagen07.png)
+![alt text](imagen08.png)
 
+#### Relaciones entre tablas
+1. Cliente y venta
+- Tabla principaal de clientes: res_partner
+- Tabla de ventas: sale_order
+- Relacion: sale_order.partner_id -> sale_order.id
 
