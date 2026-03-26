@@ -7,6 +7,6 @@
             <xpath expr="//field[@name='category_id']" position="after">
                 <field name="nivel_cliente"/>
             <xpath>
-        <field>
+        </field>
     </record>
 </odoo>                
