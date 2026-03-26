@@ -6,7 +6,7 @@
         <field name="arch" type="xml">
             <xpath expr="//field[@name='category_id']" position="after">
                 <field name="nivel_cliente"/>
-            <xpath>
+            </xpath>
         </field>
     </record>
 </odoo>                
